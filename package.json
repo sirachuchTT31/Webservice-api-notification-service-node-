@@ -1,0 +1,29 @@
+{
+  "name": "webservice-api-notification-service-node-",
+  "version": "1.0.0",
+  "main": "nodemon server.js",
+  "prisma": {
+    "schema": "node_modules/database-sdk/prisma/schema.prisma"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "install-common": "npm install  git+https://github.com/sirachuchTT31/Webservice-common-sdk-node.git",
+    "install-database": "npm install git+https://github.com/sirachuchTT31/Webservice-database-sdk-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.5",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "database-sdk": "github:sirachuchTT31/Webservice-database-sdk-node",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.2.0",
+    "http": "^0.0.1-security",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4",
+    "prisma": "^5.18.0"
+  }
+}
